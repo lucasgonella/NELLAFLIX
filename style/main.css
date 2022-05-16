@@ -62,7 +62,7 @@ header nav a:hover{
 /* Filme Principal */
 
 .filme-principal{
-    background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)100%),url('/img/capa-hp.jpg');
+    background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)100%),url('../img/capa-hp.jpg');
     background-position: center center;
     position: relative;
     height: 400px;
