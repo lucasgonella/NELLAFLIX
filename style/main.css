@@ -7,13 +7,10 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 a {
-    background-color: transparent;
-    color: rgb(184, 184, 184);
     text-decoration: none;
-    font-size: 13px;
 }
 
 body {
@@ -26,8 +23,13 @@ body {
 /* Estudar mais sobre Flex-Box */
 
 header .container{
+
+    width: -webkit-fill-available;
+     top: 0;
+    z-index: 2;
+    margin-left: 52px;
+    margin-right: 52px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
@@ -36,11 +38,13 @@ header .container{
 
 
 header .logo{
+   width: auto;
     margin-left: 5px;
     color: var(--vermelho);
     text-decoration: none;
     font-family: 'Arial Black', Times;
     font-size: 40px;
+    
 }
 
 header nav a{
@@ -70,9 +74,9 @@ header nav a:hover{
     align-items: flex-start;
 }
 .filme-principal .descricao {
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
 .filme-principal .titulo{
     width: 30%;
